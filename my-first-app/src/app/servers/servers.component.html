@@ -1,0 +1,18 @@
+<label>Server name</label>
+<input type="text"
+(input)="onUpdateServerName($event)"
+class="form-control">
+
+<p>{{ serverName }} </p>
+
+<button class="btn btn-primary" 
+[disabled]="!allowAddNewServers"
+(click)="onCreateServer()">Add Server</button>
+
+<p>{{ allowAddNewServers }}</p>
+<p [innerText]="allowAddNewServers"></p>
+
+<p>{{ serverCreationStatus }}</p>
+
+<app-server></app-server>
+<app-server></app-server>
