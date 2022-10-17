@@ -263,7 +263,8 @@ Let us analyse the AppComponent component in our ExpenseManager application. The
 
 ```
 // src/app/app.component.ts 
-import { Component } from '@angular/core'; @Component({ 
+import { Component } from '@angular/core'; 
+@Component({ 
    selector: 'app-root', 
    templateUrl: './app.component.html', 
    styleUrls: ['./app.component.css'] 
@@ -344,7 +345,8 @@ Let us check the root module of our Expense Manager application.
 ```
 import { BrowserModule } from '@angular/platform-browser'; 
 import { NgModule } from '@angular/core'; 
-import { AppComponent } from './app.component'; @NgModule({ 
+import { AppComponent } from './app.component'; 
+@NgModule({ 
    declarations: [ 
       AppComponent 
    ], 
