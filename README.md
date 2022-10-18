@@ -1,4 +1,6 @@
 # Bulilding WebApps with Angular
+## Note
+If you're getting errors when running `npm install`, you can often solve them by running `npm install --legacy-peer-deps` instead of npm install .
 
 ## Introduction to Angular
 Angular 8 is a TypeScript based full-stack web framework for building web and mobile applications. One of the major advantage is that the Angular 8 support for web application that can fit in any screen resolution. Angular application is fully compatible for mobiles, tablets, laptops or desktops. Angular 8 has an excellent user interface library for web developers which contains reusable UI components.
